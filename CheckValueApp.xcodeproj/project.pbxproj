@@ -11,6 +11,8 @@
 		282DB03E2676688C00ED1A15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB03D2676688C00ED1A15 /* ContentView.swift */; };
 		282DB0402676688E00ED1A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282DB03F2676688E00ED1A15 /* Assets.xcassets */; };
 		282DB0432676688E00ED1A15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282DB0422676688E00ED1A15 /* Preview Assets.xcassets */; };
+		282DB04B267668C000ED1A15 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB04A267668C000ED1A15 /* ButtonView.swift */; };
+		282DB04D26766EEF00ED1A15 /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282DB04C26766EEF00ED1A15 /* SliderUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		282DB03F2676688E00ED1A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		282DB0422676688E00ED1A15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		282DB0442676688E00ED1A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282DB04A267668C000ED1A15 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		282DB04C26766EEF00ED1A15 /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				282DB03B2676688C00ED1A15 /* CheckValueAppApp.swift */,
 				282DB03D2676688C00ED1A15 /* ContentView.swift */,
+				282DB04A267668C000ED1A15 /* ButtonView.swift */,
+				282DB04C26766EEF00ED1A15 /* SliderUIKit.swift */,
 				282DB03F2676688E00ED1A15 /* Assets.xcassets */,
 				282DB0442676688E00ED1A15 /* Info.plist */,
 				282DB0412676688E00ED1A15 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282DB04B267668C000ED1A15 /* ButtonView.swift in Sources */,
+				282DB04D26766EEF00ED1A15 /* SliderUIKit.swift in Sources */,
 				282DB03E2676688C00ED1A15 /* ContentView.swift in Sources */,
 				282DB03C2676688C00ED1A15 /* CheckValueAppApp.swift in Sources */,
 			);
@@ -280,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alexrybachev.CheckValueApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alexrybachev.CheckValueApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
